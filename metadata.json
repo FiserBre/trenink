@@ -1,0 +1,7 @@
+{
+  "name": "Sparta Training Analyzer",
+  "description": "Nástroj pro analýzu tréninkových plánů z obrázků. Automaticky extrahuje kilometry běhu, kilometry ve vodě a čas zátěže.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
