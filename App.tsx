@@ -54,7 +54,7 @@ const App: React.FC = () => {
                   onClick={handleAnalysis}
                   className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-10 rounded-2xl shadow-lg transition-all transform hover:scale-105 active:scale-95"
                 >
-                  Spustit analýzu cyklu
+                  Spustit vypocet deniku
                 </button>
               </div>
             )}
