@@ -22,7 +22,7 @@ const App: React.FC = () => {
       setResult(data);
     } catch (err) {
       console.error(err);
-      setError('Nepodařilo se analyzovat obrázky. Zkuste to prosím znovu.');
+      setError('Nepodařilo se analyzovat obrázky. Zkus to prosím znovu. Případně se vrať později.');
     } finally {
       setIsLoading(false);
     }
