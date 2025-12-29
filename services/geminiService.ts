@@ -46,7 +46,7 @@ export const analyzeTrainingImages = async (base64Images: string[]): Promise<Ana
   }));
 
   const response: GenerateContentResponse = await ai.models.generateContent({
-    model: 'gemini-2-flash-preview',
+    model: 'gemini-3-pro-preview',
     contents: [
       {
         parts: [
