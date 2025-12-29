@@ -22,7 +22,7 @@ export const analyzeTrainingImages = async (base64Images: string[]): Promise<Ana
     - 108 B-C: Běh celkem (km) - sečti všechny "běh 4km", "běh 8km" atd.
     - 109 B-Ú: Běh úseky (km).
     - 110 B-V: Běh vytrvalost (km).
-    - 111 PL: Plavání (vždy když je plavání, plave se přesně jednu hodinu).
+    - 111 PL: Plavání (vždy když je plavání, plave se přesně JEDNU HODINU, NE VÍC NE MÍŇ).
     - 112 OST: Ostatní (kolo, brusle) - čas v hodinách.
     - 113 SH: Sportovní hry (fotbal, hry) - čas v hodinách.
     - 114 KOM: Kompenzační cvičení, strečink (v hodinách).
