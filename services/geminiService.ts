@@ -15,9 +15,9 @@ export const analyzeTrainingImages = async (base64Images: string[]): Promise<Ana
     - 101 V-C: Voda celkem (km) - sečti všechny km na vodě.
     - 102 V-R: Voda rychlost (km) - úseky do 200m v maximální intenzitě.
     - 103 V-TT: Voda traťové tempo (km) - úseky do 1000m.
-    - 104 RV: Rychlá vytrvalost (voda).
-    - 105 PV: Pomalá vytrvalost (voda).
-    - 106 POS: Celkový čas posilování (v hodinách). Hledej "posilování", "benč", "kruhák".
+    - 104 RV: RV (počítej pouze u tréninku voda, ne trenažér, bazén a dalš. Může být ve vteřinách(příklad: 40“), nebo v minutách(příklad: 1') vzdálenost počítej podle tohoto pravidla: 1 minuta = 200m).
+    - 105 PV: PV (počítej pouze u tréninku voda, ne trenažér, bazén a další. Může být ve vteřinách(příklad: 40“), nebo v minutách(příklad: 1') vzdálenost počítej podle tohoto pravidla: 1 minuta = 150m).
+    - 106 POS: Celkový čas posilování (v hodinách). Hledej "posilování", "benč", "kruhák", "aktivace".
     - 107 SPEC POS: Speciální posilování (pádlovací bazén, trenažér s brzdou).
     - 108 B-C: Běh celkem (km) - sečti všechny "běh 4km", "běh 8km" atd.
     - 109 B-Ú: Běh úseky (km).
